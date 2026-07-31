@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PLL - CMC Cube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> ... </header>
+
+  <section class="hero">
+    <h1>PLL Cases</h1>
+    <p>27 cases to permute the last layer.</p>
+  </section>
+</body>
+</html>
