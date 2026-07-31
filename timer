@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cube Timer - CMC Cube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> ... </header>
+
+  <section class="hero">
+    <h1>Cube Timer</h1>
+    <p>Press spacebar to start/stop the timer.</p>
+    <div id="timer" style="font-size:3rem; margin-top:20px;">0.00</div>
+  </section>
+
+  <script>
+    let start, running = false;
+    const timer = document.getElementById('timer');
+    document.body.onkeyup = function(e) {
+      if (e.code === 'Space') {
+        if (!running) {
+          start = Date.now();
+          running = true;
+          requestAnimationFrame(update);
+        } else {
+          running = false;
+        }
+      }
+    };
+    function update() {
+      if (running) {
+        const diff = (Date.now() - start) / 1000;
+        timer.textContent = diff.toFixed(2);
+        requestAnimationFrame(update);
+      }
+    }
+  </script>
+</body>
+</html>
