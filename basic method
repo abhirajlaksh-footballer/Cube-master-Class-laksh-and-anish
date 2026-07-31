@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Method - CMC Cube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> ... </header>
+
+  <section class="hero">
+    <h1>Basic Method</h1>
+    <p>Step‑by‑step beginner’s approach to solving the cube.</p>
+  </section>
+
+  <section class="info-section">
+    <div class="card"><h3>Step 1</h3><p>Solve the white cross.</p></div>
+    <div class="card"><h3>Step 2</h3><p>Complete the first layer corners.</p></div>
+    <div class="card"><h3>Step 3</h3><p>Solve the second layer edges.</p></div>
+    <div class="card"><h3>Step 4</h3><p>Finish the last layer.</p></div>
+  </section>
+</body>
+</html>
