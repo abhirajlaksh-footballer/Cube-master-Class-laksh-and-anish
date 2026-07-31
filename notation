@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cube Notations - CMC Cube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> ... (same header/nav as index.html) ... </header>
+
+  <section class="hero">
+    <h1>Cube Notations</h1>
+    <p>Learn the moves and rotations used in solving the Rubik’s Cube.</p>
+  </section>
+
+  <section class="info-section">
+    <div class="card"><h3>U</h3><p>Upper face clockwise turn.</p></div>
+    <div class="card"><h3>U'</h3><p>Upper face counter‑clockwise turn.</p></div>
+    <div class="card"><h3>R</h3><p>Right face clockwise turn.</p></div>
+    <!-- Add more notations -->
+  </section>
+</body>
+</html>
